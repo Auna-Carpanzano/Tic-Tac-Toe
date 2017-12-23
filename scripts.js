@@ -67,6 +67,7 @@ $(document).ready(function() {
         break;
       }
     }
+    return gameWon;
   }
 
 }); //End document ready function
