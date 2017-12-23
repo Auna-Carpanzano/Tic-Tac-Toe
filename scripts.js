@@ -30,5 +30,10 @@ $(document).ready(function() {
         cells[i].addEventListener('click', checkTurn, false);
       }
     }); //End turnX click function
+    $("#turnO").click(function() {
+      player = "O";
+      computer = "X";
+    }); //End turnX click function
+
   };
 }); //End document ready function
