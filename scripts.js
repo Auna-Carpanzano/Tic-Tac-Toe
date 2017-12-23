@@ -47,6 +47,12 @@ $(document).ready(function() {
     }
   }
 
+  function checkTie() {
+    if (emptySquares().length === 0) {
+      return true;
+    }
+  }
+
   function playGame(squareId, player) {
     originalBoard[squareId] = player;
     document.getElementById(squareId).innerText = player;
