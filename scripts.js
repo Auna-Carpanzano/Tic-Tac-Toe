@@ -15,5 +15,7 @@ $(document).ready(function() {
   ];
 
   function startGame() {
+    //Allows to show on replay
+    document.querySelector(".startGame").style.display = "block";
   };
 }); //End document ready function
