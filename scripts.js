@@ -48,6 +48,8 @@ $(document).ready(function() {
   }
 
   function playGame(squareId, player) {
+    originalBoard[squareId] = player;
+    document.getElementById(squareId).innerText = player;
   }
 
 }); //End document ready function
