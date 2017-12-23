@@ -41,6 +41,9 @@ $(document).ready(function() {
   }
 
   function checkTurn(square) {
+    if (typeof originalBoard[square.target.id] == 'number') {
+      playGame(square.target.id, player);
+    }
   }
 
 }); //End document ready function
