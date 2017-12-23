@@ -49,6 +49,7 @@ $(document).ready(function() {
 
   function checkTie() {
     if (emptySquares().length === 0) {
+      declareWinner("Tie Game!");
       return true;
     }
     return false;
