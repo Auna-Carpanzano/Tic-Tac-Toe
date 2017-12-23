@@ -54,4 +54,7 @@ $(document).ready(function() {
     if (gameWon) gameOver(gameWon)
   }
 
+  function checkWin(board, player) {
+  }
+
 }); //End document ready function
