@@ -114,5 +114,8 @@ $(document).ready(function() {
 
   function miniMax(newBoard, current) {
     var availSpots = emptySquares(newBoard);
+    if (checkWin(newBoard, player)) {
+
+    }
   }
 }); //End document ready function
