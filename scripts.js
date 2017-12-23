@@ -92,4 +92,8 @@ $(document).ready(function() {
     document.querySelector(".endGame .text").innerText = who;
   }
 
+  function emptySquares() {
+    return originalBoard.filter(s => typeof s == 'number');
+  }
+
 }); //End document ready function
