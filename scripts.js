@@ -82,4 +82,9 @@ $(document).ready(function() {
     }
   }
 
+  function end() {
+    $(".endGame").css("display", "none");
+    $(".startGame").fadeIn(1000);
+  }
+
 }); //End document ready function
