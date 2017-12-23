@@ -26,6 +26,7 @@ $(document).ready(function() {
       originalBoard = Array.from(Array(9).keys());
       for (var i = 0; i < cells.length; i++) {
         cells[i].innerText = '';
+        cells[i].style.removeProperty('background-color');
       }
     }); //End turnX click function
   };
