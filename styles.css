@@ -22,3 +22,7 @@ table {
   margin-left: -155px;
   top: 250px;
 }
+
+table tr:first-child td {
+  border-top: none;
+}
