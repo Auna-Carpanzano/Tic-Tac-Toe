@@ -13,4 +13,7 @@ $(document).ready(function() {
     [0, 4, 8],
     [6, 4, 2]
   ];
+
+  function startGame() {
+  };
 }); //End document ready function
