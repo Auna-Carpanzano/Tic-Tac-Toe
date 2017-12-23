@@ -88,6 +88,8 @@ $(document).ready(function() {
   }
 
   function declareWinner(who) {
+    document.querySelector(".endGame").style.display = "block";
+    document.querySelector(".endGame .text").innerText = who;
   }
 
 }); //End document ready function
