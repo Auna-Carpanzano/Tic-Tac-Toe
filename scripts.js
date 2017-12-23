@@ -49,6 +49,9 @@ $(document).ready(function() {
 
   function checkTie() {
     if (emptySquares().length === 0) {
+      for (var i = 0; i < cells.length; i++) {
+        cells[i].style.backgroundColor = "#16a085";
+      }
       declareWinner("Tie Game!");
       var x = setTimeout(end, 1000);
       return true;
