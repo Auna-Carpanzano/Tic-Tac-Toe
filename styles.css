@@ -14,3 +14,7 @@ td {
   text-align: center;
   font-size: 70px;
 }
+
+table {
+  border-collapse: collapse;
+}
