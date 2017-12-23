@@ -71,6 +71,10 @@ $(document).ready(function() {
   }
 
   function gameOver(gameWon) {
+    for (let index of winCombos[gameWon.index]) {
+      document.getElementById(index).style.backgroundColor =
+        gameWon.player == player ? "#2980b9" : "#c0392b";
+    }
   }
 
 }); //End document ready function
