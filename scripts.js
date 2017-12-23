@@ -27,6 +27,7 @@ $(document).ready(function() {
       for (var i = 0; i < cells.length; i++) {
         cells[i].innerText = '';
         cells[i].style.removeProperty('background-color');
+        cells[i].addEventListener('click', checkTurn, false);
       }
     }); //End turnX click function
   };
