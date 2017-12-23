@@ -36,6 +36,9 @@ $(document).ready(function() {
       $(".startGame").fadeOut(1000);
       //makes array of 0-8
       originalBoard = Array.from(Array(9).keys());
+      for (var i = 0; i < cells.length; i++) {
+        cells[i].innerText = '';
+      }
     }); //End turnX click function
 
   };
