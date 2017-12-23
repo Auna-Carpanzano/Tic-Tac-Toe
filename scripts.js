@@ -96,4 +96,8 @@ $(document).ready(function() {
     return originalBoard.filter(s => typeof s == 'number');
   }
 
+  function bestSpot() {
+    return miniMax(originalBoard, computer).index;
+  }
+
 }); //End document ready function
