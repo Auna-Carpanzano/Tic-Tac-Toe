@@ -112,4 +112,7 @@ $(document).ready(function() {
     return miniMax(originalBoard, computer).index;
   }
 
+  function miniMax(newBoard, current) {
+
+  }
 }); //End document ready function
