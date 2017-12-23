@@ -119,5 +119,10 @@ $(document).ready(function() {
         score: -10
       };
     }
+    else if (checkWin(newBoard, computer)) {
+      return {
+        score: 10
+      };
+    }
   }
 }); //End document ready function
