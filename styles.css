@@ -50,3 +50,7 @@ button {
   font-size: 32px;
   font-family: 'Open Sans', sans-serif;
 }
+
+.startGame, .endGame {
+  text-align: center;
+}
