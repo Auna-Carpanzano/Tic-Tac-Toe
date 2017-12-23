@@ -70,4 +70,7 @@ $(document).ready(function() {
     return gameWon;
   }
 
+  function gameOver(gameWon) {
+  }
+
 }); //End document ready function
