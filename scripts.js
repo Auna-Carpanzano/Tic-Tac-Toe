@@ -15,13 +15,15 @@ $(document).ready(function() {
   ];
 
   function startGame() {
-    //Allows to show on replay
+    //Allow to show on replay
     document.querySelector(".startGame").style.display = "block";
-    //Assigns X or O when player chooses
+    //Assign X or O when player chooses
     $("#turnX").click(function() {
       player = "X";
       computer = "O";
       $(".startGame").fadeOut(1000);
+      //Make array of 0-8
+      originalBoard = Array.from(Array(9).keys());
     }); //End turnX click function
   };
 }); //End document ready function
