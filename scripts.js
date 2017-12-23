@@ -15,33 +15,27 @@ $(document).ready(function() {
   ];
 
   function startGame() {
-    //Allow to show on replay
     document.querySelector(".startGame").style.display = "block";
-    //Assign X or O when player chooses
     $("#turnX").click(function() {
       player = "X";
       computer = "O";
-      $(".startGame").fadeOut(1000);
-      //Make array of 0-8
-      originalBoard = Array.from(Array(9).keys());
-      for (var i = 0; i < cells.length; i++) {
-        cells[i].innerText = '';
-        cells[i].style.removeProperty('background-color');
-        cells[i].addEventListener('click', checkTurn, false);
-      }
-    }); //End turnX click function
+      makeBoard();
+    });
     $("#turnO").click(function() {
       player = "O";
       computer = "X";
-      $(".startGame").fadeOut(1000);
-      //makes array of 0-8
-      originalBoard = Array.from(Array(9).keys());
-      for (var i = 0; i < cells.length; i++) {
-        cells[i].innerText = '';
-        cells[i].style.removeProperty('background-color');
-        cells[i].addEventListener('click', checkTurn, false);
-      }
-    }); //End turnX click function
-
+      makeBoard();
+    });
   };
+
+  function makeBoard() {
+    $(".startGame").fadeOut(1000);
+    originalBoard = Array.from(Array(9).keys());
+    for (var i = 0; i < cells.length; i++) {
+      cells[i].innerText = '';
+      cells[i].style.removeProperty('background-color');
+      cells[i].addEventListener('click', checkTurn, false);
+    }
+  }
+
 }); //End document ready function
