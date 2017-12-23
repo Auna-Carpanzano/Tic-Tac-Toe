@@ -26,3 +26,7 @@ table {
 table tr:first-child td {
   border-top: none;
 }
+
+table tr:last-child td {
+  border-bottom: none;
+}
