@@ -51,6 +51,7 @@ $(document).ready(function() {
     if (emptySquares().length === 0) {
       return true;
     }
+    return false;
   }
 
   function playGame(squareId, player) {
