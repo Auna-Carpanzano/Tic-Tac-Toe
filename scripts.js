@@ -47,4 +47,7 @@ $(document).ready(function() {
     }
   }
 
+  function playGame(squareId, player) {
+  }
+
 }); //End document ready function
