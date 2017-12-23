@@ -33,6 +33,7 @@ $(document).ready(function() {
     $("#turnO").click(function() {
       player = "O";
       computer = "X";
+      $(".startGame").fadeOut(1000);
     }); //End turnX click function
 
   };
