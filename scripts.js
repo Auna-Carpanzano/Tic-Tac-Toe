@@ -75,6 +75,9 @@ $(document).ready(function() {
       document.getElementById(index).style.backgroundColor =
         gameWon.player == player ? "#2980b9" : "#c0392b";
     }
+    for (var i = 0; i < cells.length; i++) {
+      cells[i].removeEventListener('click', checkTurn, false);
+    }
   }
 
 }); //End document ready function
