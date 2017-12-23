@@ -87,4 +87,7 @@ $(document).ready(function() {
     $(".startGame").fadeIn(1000);
   }
 
+  function declareWinner(who) {
+  }
+
 }); //End document ready function
