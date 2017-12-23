@@ -17,5 +17,10 @@ $(document).ready(function() {
   function startGame() {
     //Allows to show on replay
     document.querySelector(".startGame").style.display = "block";
+    //Assigns X or O when player chooses
+    $("#turnX").click(function() {
+      player = "X";
+      computer = "O";
+    }); //End turnX click function
   };
 }); //End document ready function
