@@ -113,6 +113,6 @@ $(document).ready(function() {
   }
 
   function miniMax(newBoard, current) {
-
+    var availSpots = emptySquares(newBoard);
   }
 }); //End document ready function
