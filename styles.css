@@ -8,4 +8,6 @@ body {
 
 td {
   border: 10px solid rgb(80, 80, 80);
+  width: 100px;
+  height: 100px;
 }
