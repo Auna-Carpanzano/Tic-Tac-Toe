@@ -18,5 +18,7 @@ td {
 table {
   border-collapse: collapse;
   position: absolute;
-
+  left: 50%;
+  margin-left: -155px;
+  top: 250px;
 }
