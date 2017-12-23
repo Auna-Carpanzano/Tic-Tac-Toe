@@ -14,6 +14,8 @@ $(document).ready(function() {
     [6, 4, 2]
   ];
 
+  startGame();
+
   function startGame() {
     document.querySelector(".startGame").style.display = "block";
     $("#turnX").click(function() {
