@@ -42,3 +42,8 @@ table tr td:last-child {
 p {
   display: inline;
 }
+
+button {
+  width: 80px;
+  height: 80px;
+}
