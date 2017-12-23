@@ -78,6 +78,7 @@ $(document).ready(function() {
     for (var i = 0; i < cells.length; i++) {
       cells[i].removeEventListener('click', checkTurn, false);
       declareWinner(gameWon.player == player ? "You win!" : "You lose!");
+      var x = setTimeout(end, 1000);
     }
   }
 
