@@ -124,5 +124,10 @@ $(document).ready(function() {
         score: 10
       };
     }
+    else if (availSpots.length === 0) {
+      return {
+        score: 0
+      };
+    }
   }
 }); //End document ready function
