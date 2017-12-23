@@ -34,6 +34,8 @@ $(document).ready(function() {
       player = "O";
       computer = "X";
       $(".startGame").fadeOut(1000);
+      //makes array of 0-8
+      originalBoard = Array.from(Array(9).keys());
     }); //End turnX click function
 
   };
