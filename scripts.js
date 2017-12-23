@@ -21,6 +21,7 @@ $(document).ready(function() {
     $("#turnX").click(function() {
       player = "X";
       computer = "O";
+      $(".startGame").fadeOut(1000);
     }); //End turnX click function
   };
 }); //End document ready function
