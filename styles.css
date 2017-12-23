@@ -56,3 +56,7 @@ button {
   margin: 50px auto;
   font-size: 32px;
 }
+
+.endGame {
+  display: none;
+}
