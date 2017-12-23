@@ -54,4 +54,5 @@ button {
 .startGame, .endGame {
   text-align: center;
   margin: 50px auto;
+  font-size: 32px;
 }
