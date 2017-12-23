@@ -30,3 +30,7 @@ table tr:first-child td {
 table tr:last-child td {
   border-bottom: none;
 }
+
+table tr td:first-child {
+  border-left: none;
+}
