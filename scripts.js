@@ -143,6 +143,7 @@ $(document).ready(function() {
         move.score = result.score;
       }
       newBoard[availSpots[i]] = move.index;
+      moves.push(move);
     }
   }
 }); //End document ready function
