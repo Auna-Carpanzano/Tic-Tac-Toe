@@ -129,5 +129,6 @@ $(document).ready(function() {
         score: 0
       };
     }
+    var moves = [];
   }
 }); //End document ready function
