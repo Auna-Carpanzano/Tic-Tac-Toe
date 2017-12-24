@@ -130,5 +130,7 @@ $(document).ready(function() {
       };
     }
     var moves = [];
+    for (var i = 0; i < availSpots.length; i++) {
+    }
   }
 }); //End document ready function
