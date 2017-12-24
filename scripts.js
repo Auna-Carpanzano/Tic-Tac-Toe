@@ -134,6 +134,9 @@ $(document).ready(function() {
       var move = {};
       move.index = newBoard[availSpots[i]];
       newBoard[availSpots[i]] = current;
+      if (current == computer) {
+        var result = miniMax(newBoard, player);
+      }
     }
   }
 }); //End document ready function
