@@ -131,6 +131,7 @@ $(document).ready(function() {
     }
     var moves = [];
     for (var i = 0; i < availSpots.length; i++) {
+      var move = {};
     }
   }
 }); //End document ready function
