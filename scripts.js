@@ -136,6 +136,7 @@ $(document).ready(function() {
       newBoard[availSpots[i]] = current;
       if (current == computer) {
         var result = miniMax(newBoard, player);
+        move.score = result.score;
       }
     }
   }
