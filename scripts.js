@@ -132,6 +132,7 @@ $(document).ready(function() {
     var moves = [];
     for (var i = 0; i < availSpots.length; i++) {
       var move = {};
+      move.index = newBoard[availSpots[i]];
     }
   }
 }); //End document ready function
