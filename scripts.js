@@ -145,5 +145,7 @@ $(document).ready(function() {
       newBoard[availSpots[i]] = move.index;
       moves.push(move);
     }
+    var bestMove;
+
   }
 }); //End document ready function
