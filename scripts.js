@@ -138,6 +138,10 @@ $(document).ready(function() {
         var result = miniMax(newBoard, player);
         move.score = result.score;
       }
+      else {
+        var result = miniMax(newBoard, computer);
+        move.score = result.score;
+      }
     }
   }
 }); //End document ready function
