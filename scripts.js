@@ -155,5 +155,8 @@ $(document).ready(function() {
         }
       }
     }
+    else {
+      var bestScore = 10000;
+    }
   }
 }); //End document ready function
