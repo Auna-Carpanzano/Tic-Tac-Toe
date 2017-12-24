@@ -157,6 +157,8 @@ $(document).ready(function() {
     }
     else {
       var bestScore = 10000;
+      for (var i = 0; i < moves.length; i++) {
+      }
     }
   }
 }); //End document ready function
