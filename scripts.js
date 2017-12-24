@@ -164,5 +164,6 @@ $(document).ready(function() {
         }
       }
     }
+    return moves[bestMove];
   }
 }); //End document ready function
