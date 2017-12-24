@@ -146,6 +146,8 @@ $(document).ready(function() {
       moves.push(move);
     }
     var bestMove;
-
+    if (current === computer) {
+      var bestScore = -10000;
+    }
   }
 }); //End document ready function
