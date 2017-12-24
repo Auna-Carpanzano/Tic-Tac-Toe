@@ -158,6 +158,10 @@ $(document).ready(function() {
     else {
       var bestScore = 10000;
       for (var i = 0; i < moves.length; i++) {
+        if (moves[i].score < bestScore) {
+          bestScore = moves[i].score;
+          bestMove = i;
+        }
       }
     }
   }
