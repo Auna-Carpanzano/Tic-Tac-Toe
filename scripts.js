@@ -142,6 +142,7 @@ $(document).ready(function() {
         var result = miniMax(newBoard, computer);
         move.score = result.score;
       }
+      newBoard[availSpots[i]] = move.index;
     }
   }
 }); //End document ready function
