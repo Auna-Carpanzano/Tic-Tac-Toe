@@ -133,6 +133,7 @@ $(document).ready(function() {
     for (var i = 0; i < availSpots.length; i++) {
       var move = {};
       move.index = newBoard[availSpots[i]];
+      newBoard[availSpots[i]] = current;
     }
   }
 }); //End document ready function
