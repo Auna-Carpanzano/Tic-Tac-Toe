@@ -148,6 +148,8 @@ $(document).ready(function() {
     var bestMove;
     if (current === computer) {
       var bestScore = -10000;
+        for (var i = 0; i < moves.length; i++) {
+      }
     }
   }
 }); //End document ready function
