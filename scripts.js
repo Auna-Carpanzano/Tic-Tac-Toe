@@ -148,7 +148,7 @@ $(document).ready(function() {
     var bestMove;
     if (current === computer) {
       var bestScore = -10000;
-        for (var i = 0; i < moves.length; i++) {
+      for (var i = 0; i < moves.length; i++) {
         if (moves[i].score > bestScore) {
           bestScore = moves[i].score;
           bestMove = i;
