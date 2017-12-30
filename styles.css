@@ -49,6 +49,7 @@ button {
   font-size: 32px;
   font-family: 'Open Sans', sans-serif;
   color: black;
+  background-color: transparent;
 }
 
 .startGame, .endGame {
