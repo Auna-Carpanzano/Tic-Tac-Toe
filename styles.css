@@ -50,6 +50,7 @@ button {
   font-family: 'Open Sans', sans-serif;
   color: black;
   background-color: transparent;
+  border: none;
 }
 
 .startGame, .endGame {
