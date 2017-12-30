@@ -20,7 +20,7 @@ table {
   position: absolute;
   left: 50%;
   margin-left: -155px;
-  top: 250px;
+  top: 200px;
 }
 
 table tr:first-child td {
@@ -46,15 +46,17 @@ p {
 button {
   width: 80px;
   height: 80px;
-  border-radius: 50%;
-  font-size: 32px;
+  font-size: 70px;
   font-family: 'Open Sans', sans-serif;
-  color: black;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .startGame, .endGame {
   text-align: center;
-  margin: 50px auto;
+  margin: 50px auto 0 auto;
   font-size: 32px;
 }
 
